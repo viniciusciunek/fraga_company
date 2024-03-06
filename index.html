@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/icons/favicon.ico" type="image/x-icon" />
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- tailwind css -->
+    <link href="./src/output.css" rel="stylesheet" />
+
+    <!-- load header -->
+    <script>
+      $(function () {
+        $("#header").load("src/pages/header.html");
+      });
+    </script>
+    <title>Fraga Company ©</title>
+  </head>
+  <body>
+    <div id="header"></div>
+  </body>
+</html>
