@@ -12,7 +12,7 @@ tecnologias usadas:
 
 ## Protótipo
 
-<!-- https://www.figma.com/file/a1VDbO1aNfZyulQPxT99OE/beleza-em-dia?node-id=3%3A80 -->
+https://www.figma.com/file/XaFM4yPbC3JhTmrlLgfAcl/fraga-company?type=design&node-id=90%3A404&mode=design&t=HwSPu6YPBFCgcNKU-1
 
 ## Checklist
 
