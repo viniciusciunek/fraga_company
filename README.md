@@ -2,6 +2,8 @@
 
 esse projeto tem como objetivo implementar uma loja de roupa baseada na loja https://www.chronic.com.br/.
 
+tutorial super legal
+
 tecnologias usadas:
 
 - javascript
