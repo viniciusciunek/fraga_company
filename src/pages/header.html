@@ -1,12 +1,104 @@
-<header>
-  <nav class="bg-black">
-    <a class="text-red-50" href="/divine-company/index.html">Fraga Company</a>
-    <form class="">
-      <input type="text" name="pesquisa" id="input-pesquisa" placeholder="Digite sua pesquisa..." />
-      <button type="button" id="botao-pesquisa">
-        <i class="fas fa-search"></i>
+<nav class="flex flex-row justify-between items-center bg-[#F6F6F6] p-4 h-16">
+  <div class="md:hidden dropdown text-[#050505]">
+    <div tabindex="0" role="button"><i class="fa-solid fa-bars"></i></div>
+
+    <div class="w-full flex flex-row !fixed dropdown-content z-[1] mt-4 -ml-4 menu p-4 bg-[#D9D9D9]" tabindex="0">
+      <ul tabindex="0" class="w-full">
+        <li><a class="font-raleway">MASCULINO</a></li>
+        <li><a>Acessórios</a></li>
+        <li><a>Headshop</a></li>
+        <li><a>Collabs</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div>
+    <img src="../../assets/images/logo_sm.png" class="hidden md:block md:w-24 md:max-w-full md:p-4" />
+  </div>
+
+  <div class="hidden md:flex justify-around w-8/12">
+    <!-- topico um -->
+    <div class="dropdown dropdown-hover text-[#050505]">
+      <div tabindex="0" role="button">MASCULINO <i class="fa-solid fa-chevron-down fa-xs"></i></div>
+
+      <div class="flex flex-row !fixed dropdown-content z-[1] menu p-4 bg-[#D9D9D9]" tabindex="0">
+        <ul tabindex="0">
+          <li><a>BLUSAS</a></li>
+          <li><a>CAMISETAS</a></li>
+          <li><a>JAQUETAS</a></li>
+        </ul>
+
+        <ul tabindex="0">
+          <li><a>REGATAS</a></li>
+          <li><a>CALÇAS</a></li>
+          <li><a>BERMUDAS</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- topico dois -->
+    <div class="dropdown dropdown-hover text-[#050505]">
+      <div tabindex="0" role="button">ACESSÓRIOS <i class="fa-solid fa-chevron-down fa-xs"></i></div>
+
+      <div class="flex flex-row !fixed dropdown-content z-[1] menu p-4 bg-[#D9D9D9]" tabindex="0">
+        <ul tabindex="0">
+          <li><a>BONÉS</a></li>
+          <li><a>CARTEIRA</a></li>
+          <li><a>CHINELOS</a></li>
+        </ul>
+
+        <ul tabindex="0">
+          <li><a>MOCHILAS</a></li>
+          <li><a>SHOULDER BAG</a></li>
+          <li><a>TOUCAS</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- topico tres -->
+    <div class="dropdown dropdown-hover text-[#050505]">
+      <div tabindex="0" role="button">COLLABS <i class="fa-solid fa-chevron-down fa-xs"></i></div>
+
+      <div class="flex flex-row !fixed dropdown-content z-[1] menu p-4 bg-[#D9D9D9]" tabindex="0">
+        <ul tabindex="0">
+          <li><a>DEXTER</a></li>
+          <li><a>MATO SECO</a></li>
+          <li><a>THAÍDE</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- topico tres -->
+    <div class="dropdown dropdown-hover text-[#050505]">
+      <div tabindex="0" role="button">HEADSHOP <i class="fa-solid fa-chevron-down fa-xs"></i></div>
+
+      <div class="flex flex-row !fixed dropdown-content z-[1] menu p-4 bg-[#D9D9D9]" tabindex="0">
+        <ul tabindex="0">
+          <li><a>BONG</a></li>
+          <li><a>CASES</a></li>
+          <li><a>DICHAVADOR</a></li>
+        </ul>
+
+        <ul tabindex="0">
+          <li><a>PITEIRAS</a></li>
+          <li><a>SEDA</a></li>
+          <li><a>TESOURA</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <form class="flex flex-row justify-center gap-1">
+      <input type="text" placeholder="O que você está procurando?" class="bg-[#F6F6F6] text-[#676768] input w-8/12 md:w-full" />
+
+      <button type="submit" class="btn btn-square bg-[#F6F6F6] border-none">
+        <i class="fa-solid fa-magnifying-glass"></i>
       </button>
     </form>
-    <a class="user-icon" href="/divine-company/pages/conta.html"><i class="fas fa-user"></i> </a>
-  </nav>
-</header>
+  </div>
+
+  <div class="flex justify-center ml-4 mx-2">
+    <a href="conta"> <i class="fa-solid fa-user fa-lg" style="color: #050505"></i> </a>
+  </div>
+</nav>
