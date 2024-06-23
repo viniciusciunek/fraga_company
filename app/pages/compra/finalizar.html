@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="../../../assets/icons/favicon.ico" type="image/x-icon" />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link href="../../output.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+      $(function () {
+        $("#header").load("../../header.html");
+        $("#footer").load("../../footer.html");
+      });
+    </script>
+
+    <script type="importmap">
+      {
+        "imports": {
+          "@material/web/": "https://esm.run/@material/web/"
+        }
+      }
+    </script>
+    <script type="module">
+      import "@material/web/all.js";
+      import { styles as typescaleStyles } from "@material/web/typography/md-typescale-styles.js";
+
+      document.adoptedStyleSheets.push(typescaleStyles.styleSheet);
+    </script>
+
+    <title>Finalizar Compra</title>
+
+    <style>
+      body {
+        font-family: "Raleway", sans-serif;
+      }
+    </style>
+    <link rel="stylesheet" href="../../style.css" />
+  </head>
+  <body class="bg-[#F6F6F6] h-full w-full">
+    <header>
+      <div id="header"></div>
+    </header>
+    <main>
+      <div class="border-b-2 m-2"></div>
+      <h1 class="text-2xl font-bold mb-4 text-gray-900 m-2">Finalizar Compra</h1>
+      <div class="border-b-2 m-2"></div>
+
+      <form id="formFinalizarCompra" class="p-2">
+        <div class="mb-4">
+          <label for="nome" class="block text-sm font-medium text-gray-700">Nome</label>
+          <input type="text" id="nome" name="nome" class="mt-1 w-full rounded p-2 bg-white border border-gray-950" required />
+        </div>
+        <div class="mb-4">
+          <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+          <input type="email" id="email" name="email" class="mt-1 w-full rounded p-2 bg-white border border-gray-950" required />
+        </div>
+        <div class="mb-4">
+          <label for="telefone" class="block text-sm font-medium text-gray-700">Telefone</label>
+          <input type="text" id="telefone" name="telefone" class="mt-1 w-full rounded p-2 bg-white border border-gray-950" required />
+        </div>
+        <div class="mb-4">
+          <label for="cpf" class="block text-sm font-medium text-gray-700">CPF</label>
+          <input type="text" id="cpf" name="cpf" class="mt-1 w-full rounded p-2 bg-white border border-gray-950" required />
+        </div>
+        <div class="mb-4">
+          <label for="cep" class="block text-sm font-medium text-gray-700">CEP</label>
+          <input type="text" id="cep" name="cep" class="mt-1 w-full rounded p-2 bg-white border border-gray-950" required />
+        </div>
+        <div class="mb-4">
+          <label for="endereco" class="block text-sm font-medium text-gray-700">Endereço</label>
+          <input
+            type="text"
+            id="endereco"
+            name="endereco"
+            class="mt-1 w-full rounded p-2 bg-white border border-gray-950"
+            required
+            readonly
+          />
+        </div>
+        <div class="mb-4">
+          <label for="cartao" class="block text-sm font-medium text-gray-700">Cartão de Crédito</label>
+          <input type="text" id="cartao" name="cartao" class="mt-1 w-full rounded p-2 bg-white border border-gray-950" required />
+        </div>
+        <div class="mb-4">
+          <p class="text-lg font-bold">Total: <span id="totalCarrinho">R$ 0,00</span></p>
+        </div>
+        <md-filled-button type="submit" class="w-full">FINALIZAR COMPRA</md-filled-button>
+      </form>
+    </main>
+    <footer>
+      <div id="footer"></div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>

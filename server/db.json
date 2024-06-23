@@ -1,0 +1,174 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Camiseta Chronic",
+      "categoria": "camiseta",
+      "preco": 79.9,
+      "quantidade": 120,
+      "tamanho": ["P", "M", "G", "GG"],
+      "imagemfrente": "https://static.cdnlive.com.br/uploads/556/unidade/16843245092883_detalhe.jpg",
+      "imagemcostas": "https://static.cdnlive.com.br/uploads/556/produto/16843245085712_detalhe.jpg"
+    },
+    {
+      "id": 2,
+      "nome": "Camiseta Chronic Mato Seco",
+      "categoria": "camiseta",
+      "preco": 96.0,
+      "quantidade": 96,
+      "tamanho": ["P", "M", "G", "GG"],
+      "imagemfrente": "https://static.cdnlive.com.br/uploads/707/unidade/16831215655480_zoom.jpg",
+      "imagemcostas": "https://static.cdnlive.com.br/uploads/707/produto/16831215651683_zoom.jpg"
+    },
+    {
+      "id": 3,
+      "nome": "Camiseta Chronic Paz",
+      "categoria": "camiseta",
+      "preco": 89.9,
+      "quantidade": 73,
+      "tamanho": ["P", "M", "G", "GG"],
+      "imagemfrente": "https://static.cdnlive.com.br/uploads/707/unidade/16813935569431_zoom.jpg",
+      "imagemcostas": "https://static.cdnlive.com.br/uploads/707/produto/16813935568631_zoom.jpg"
+    },
+    {
+      "id": 4,
+      "nome": "Camiseta Chronic O Mundo é Nosso",
+      "categoria": "camiseta",
+      "preco": 89,
+      "quantidade": 34,
+      "tamanho": ["P", "M", "G", "GG"],
+      "imagemfrente": "https://static.cdnlive.com.br/uploads/707/unidade/16752627788373_zoom.jpg",
+      "imagemcostas": "https://static.cdnlive.com.br/uploads/707/produto/16752627753935_zoom.jpg"
+    },
+    {
+      "id": 5,
+      "nome": "Camiseta Chronic Green Friend",
+      "categoria": "camiseta",
+      "preco": 89,
+      "quantidade": 46,
+      "tamanho": ["P", "M", "G", "GG"],
+      "imagemfrente": "https://static.cdnlive.com.br/uploads/707/unidade/16759683792659_zoom.jpg",
+      "imagemcostas": "https://static.cdnlive.com.br/uploads/707/produto/16759683798832_zoom.jpg"
+    },
+    {
+      "id": 6,
+      "nome": "Camiseta Chronic P1xando",
+      "categoria": "camiseta",
+      "preco": 89,
+      "quantidade": 35,
+      "tamanho": ["P", "M", "G", "GG"],
+      "imagemfrente": "https://static.cdnlive.com.br/uploads/707/unidade/16836363684831_zoom.jpg",
+      "imagemcostas": "https://static.cdnlive.com.br/uploads/707/produto/16836363677217_zoom.jpg"
+    },
+    {
+      "id": 7,
+      "nome": "Camiseta Chronic Chapando o Globo",
+      "categoria": "camiseta",
+      "preco": 89,
+      "quantidade": 31,
+      "tamanho": ["P", "M", "G", "GG"],
+      "imagemfrente": "https://static.cdnlive.com.br/uploads/707/unidade/16836556974761_zoom.jpg",
+      "imagemcostas": "https://static.cdnlive.com.br/uploads/707/produto/16836556969262_zoom.jpg"
+    },
+    {
+      "id": 8,
+      "nome": "Camiseta Chronic Mundo Louco",
+      "categoria": "camiseta",
+      "preco": 89,
+      "quantidade": 22,
+      "tamanho": ["P", "M", "G", "GG"],
+      "imagemfrente": "https://static.cdnlive.com.br/uploads/707/unidade/16838991733796_zoom.jpg",
+      "imagemcostas": "https://static.cdnlive.com.br/uploads/707/produto/16838991723693_zoom.jpg"
+    },
+    {
+      "id": 9,
+      "nome": "Camiseta Chronic Mato Seco",
+      "categoria": "camiseta",
+      "preco": 96,
+      "quantidade": 13,
+      "tamanho": ["P", "M", "G", "GG"],
+      "imagemfrente": "https://static.cdnlive.com.br/uploads/707/unidade/16831215744448_zoom.jpg",
+      "imagemcostas": "https://static.cdnlive.com.br/uploads/707/produto/16831215741293_zoom.jpg"
+    },
+    {
+      "id": 10,
+      "nome": "Camiseta Chronic Manchister Weed",
+      "categoria": "camiseta",
+      "preco": 89,
+      "quantidade": 113,
+      "tamanho": ["P", "M", "G", "GG"],
+      "imagemfrente": "https://static.cdnlive.com.br/uploads/707/unidade/16776099753506_zoom.jpg",
+      "imagemcostas": "https://static.cdnlive.com.br/uploads/707/produto/16776099757881_zoom.jpg"
+    },
+    {
+      "id": 11,
+      "nome": "Camiseta Chronic Deus é Brasileiro",
+      "categoria": "camiseta",
+      "preco": 96,
+      "quantidade": 25,
+      "tamanho": ["P", "M", "G", "GG"],
+      "imagemfrente": "https://static.cdnlive.com.br/uploads/707/unidade/16775055727453_zoom.jpg",
+      "imagemcostas": "https://static.cdnlive.com.br/uploads/707/produto/16775055718085_zoom.jpg"
+    },
+    {
+      "id": 12,
+      "nome": "Camiseta Chronic NGM Guenta",
+      "categoria": "camiseta",
+      "preco": 89,
+      "quantidade": 12,
+      "tamanho": ["P", "M", "G", "GG"],
+      "imagemfrente": "https://static.cdnlive.com.br/uploads/707/unidade/16771500594529_zoom.jpg",
+      "imagemcostas": "https://static.cdnlive.com.br/uploads/707/produto/16771500569529_zoom.jpg"
+    },
+    {
+      "id": 13,
+      "nome": "Camiseta Chronic Alegria Palhaço",
+      "categoria": "camiseta",
+      "preco": 89,
+      "quantidade": 37,
+      "tamanho": ["P", "M", "G", "GG"],
+      "imagemfrente": "https://static.cdnlive.com.br/uploads/707/unidade/16782189086909_zoom.jpg",
+      "imagemcostas": "https://static.cdnlive.com.br/uploads/707/produto/16782189087117_zoom.jpg"
+    },
+    {
+      "id": 14,
+      "nome": "Camiseta Chronic Blind Justice",
+      "categoria": "camiseta",
+      "preco": 89,
+      "quantidade": 62,
+      "tamanho": ["P", "M", "G", "GG"],
+      "imagemfrente": "https://static.cdnlive.com.br/uploads/707/unidade/16782821796949_zoom.jpg",
+      "imagemcostas": "https://static.cdnlive.com.br/uploads/707/produto/16782821788526_zoom.jpg"
+    },
+    {
+      "id": 15,
+      "nome": "Camiseta Chronic Cheepos",
+      "categoria": "camiseta",
+      "preco": 89,
+      "quantidade": 52,
+      "tamanho": ["P", "M", "G", "GG"],
+      "imagemfrente": "https://static.cdnlive.com.br/uploads/707/unidade/16789965176843_zoom.jpg",
+      "imagemcostas": "https://static.cdnlive.com.br/uploads/707/produto/16789965155483_zoom.jpg"
+    },
+    {
+      "id": 16,
+      "nome": "Camiseta Chronic ET Marginal",
+      "categoria": "camiseta",
+      "preco": 89,
+      "quantidade": 44,
+      "tamanho": ["P", "M", "G", "GG"],
+      "imagemfrente": "https://static.cdnlive.com.br/uploads/707/unidade/16812135724545_zoom.jpg",
+      "imagemcostas": "https://static.cdnlive.com.br/uploads/707/produto/16812135711783_zoom.jpg"
+    },
+    {
+      "id": 17,
+      "nome": "Camiseta Chronic",
+      "categoria": "camiseta",
+      "preco": 89,
+      "quantidade": 22,
+      "tamanho": ["P", "M", "G", "GG"],
+      "imagemfrente": "https://static.cdnlive.com.br/uploads/707/unidade/17163896986291_zoom.jpg",
+      "imagemcostas": "https://static.cdnlive.com.br/uploads/707/unidade/17163896964736_zoom.jpg"
+    }
+  ]
+}
