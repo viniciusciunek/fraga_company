@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="../assets/icons/favicon.ico" type="image/x-icon" />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link href="./output.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+      $(function () {
+        $("#header").load("./header.html");
+      });
+    </script>
+
+    <script type="importmap">
+      {
+        "imports": {
+          "@material/web/": "https://esm.run/@material/web/"
+        }
+      }
+    </script>
+    <script type="module">
+      import "@material/web/all.js";
+      import { styles as typescaleStyles } from "@material/web/typography/md-typescale-styles.js";
+
+      document.adoptedStyleSheets.push(typescaleStyles.styleSheet);
+    </script>
+
+    <title>Fraga Company ©</title>
+
+    <style>
+      body {
+        font-family: "Raleway", sans-serif;
+      }
+    </style>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="bg-[#F6F6F6]">
+    <header>
+      <div id="header"></div>
+    </header>
+    <main>
+      <div>
+        <img src="../assets/images/bg-primary.png" class="w-full hidden md:block" alt="" />
+        <img src="../assets/images/bg-mobile-primary.png" class="w-full md:hidden" alt="" />
+      </div>
+
+      <div class="flex justify-center p-4 text-[#050505] relative">
+        <md-elevated-button id="prev" class="absolute left-0 top-1/2 ml-2 z-50"><i class="fa-solid fa-arrow-left"></i></md-elevated-button>
+
+        <div id="produtos" class="flex gap-2 px-8 md:w-full"></div>
+
+        <md-elevated-button id="next" class="absolute right-0 top-1/2 mr-2 z-50"
+          ><i class="fa-solid fa-arrow-right"></i
+        ></md-elevated-button>
+      </div>
+
+      <div>
+        <img src="assets/images/bg-secondary.png" class="w-full hidden md:block" alt="" />
+      </div>
+    </main>
+    <footer>
+      <div class="flex md:flex-row flex-col justify-start gap-24 bg-gray-900 text-gray-50 font-light p-8 mt-2">
+        <div>
+          <p class="font-bold">LINKS</p>
+          <ul>
+            <li>Meus Dados</li>
+            <li>Meus Pedidos</li>
+            <li>Carrinho de Compras</li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="font-bold">INSTITUCIONAL</p>
+          <ul>
+            <li>Politicas de Trocas e Devoluções</li>
+            <li>Politica de Privacidade</li>
+            <li>Trabalhe conosco</li>
+          </ul>
+        </div>
+
+        <div>
+          <ul>
+            <li>Rua UTFPR Guarapuava Nº0202</li>
+            <li>Fone (42) 9 9106-7182</li>
+            <li>viniciusciunek@alunos.utfpr.edu.br</li>
+          </ul>
+        </div>
+
+        <div class="bg-white w-full">
+          <p class="text-black">RECEBA AS NOTICIAS</p>
+          <input type="text" placeholder="email" class="p-2 rounded mx-4 w-full" />
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
