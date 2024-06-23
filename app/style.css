@@ -1,5 +1,4 @@
-/* 
-.produto {
-  min-width: 25%;
-  box-sizing: border-box;
-} */
+:root {
+  --md-sys-color-primary: #006a6a;
+  --md-sys-color-on-primary: #ffffff;
+}

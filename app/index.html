@@ -22,6 +22,7 @@
     <script>
       $(function () {
         $("#header").load("./header.html");
+        $("#footer").load("./footer.html");
       });
     </script>
 
@@ -45,6 +46,18 @@
       body {
         font-family: "Raleway", sans-serif;
       }
+      .carousel-container {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+      }
+      .carousel-wrapper {
+        display: flex;
+        transition: transform 0.5s ease;
+      }
+      .carousel-item {
+        min-width: 25%;
+      }
     </style>
     <link rel="stylesheet" href="./style.css" />
   </head>
@@ -61,7 +74,11 @@
       <div class="flex justify-center p-4 text-[#050505] relative">
         <md-elevated-button id="prev" class="absolute left-0 top-1/2 ml-2 z-50"><i class="fa-solid fa-arrow-left"></i></md-elevated-button>
 
-        <div id="produtos" class="flex gap-2 px-8 md:w-full"></div>
+        <!-- <div id="produtos" class="flex gap-2 px-8 md:w-full overflow-hidden"></div> -->
+
+        <div class="carousel-container">
+          <div id="produtos" class="carousel-wrapper gap-2"></div>
+        </div>
 
         <md-elevated-button id="next" class="absolute right-0 top-1/2 mr-2 z-50"
           ><i class="fa-solid fa-arrow-right"></i
@@ -71,40 +88,19 @@
       <div>
         <img src="assets/images/bg-secondary.png" class="w-full hidden md:block" alt="" />
       </div>
+
+      <md-dialog id="dialog">
+        <div slot="content">ITEM ADICIONADO NO CARRINHO!</div>
+        <div slot="actions">
+          <md-text-button form="form-id" onclick="dialog.close()">FECHAR</md-text-button>
+          <a href="/app/pages/carrinho/index.html">
+            <md-text-button form="form-id">IR PARA CARRINHO</md-text-button>
+          </a>
+        </div>
+      </md-dialog>
     </main>
     <footer>
-      <div class="flex md:flex-row flex-col justify-start gap-24 bg-gray-900 text-gray-50 font-light p-8 mt-2">
-        <div>
-          <p class="font-bold">LINKS</p>
-          <ul>
-            <li>Meus Dados</li>
-            <li>Meus Pedidos</li>
-            <li>Carrinho de Compras</li>
-          </ul>
-        </div>
-
-        <div>
-          <p class="font-bold">INSTITUCIONAL</p>
-          <ul>
-            <li>Politicas de Trocas e Devoluções</li>
-            <li>Politica de Privacidade</li>
-            <li>Trabalhe conosco</li>
-          </ul>
-        </div>
-
-        <div>
-          <ul>
-            <li>Rua UTFPR Guarapuava Nº0202</li>
-            <li>Fone (42) 9 9106-7182</li>
-            <li>viniciusciunek@alunos.utfpr.edu.br</li>
-          </ul>
-        </div>
-
-        <div class="bg-white w-full">
-          <p class="text-black">RECEBA AS NOTICIAS</p>
-          <input type="text" placeholder="email" class="p-2 rounded mx-4 w-full" />
-        </div>
-      </div>
+      <div id="footer"></div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
